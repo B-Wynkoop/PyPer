@@ -64,7 +64,7 @@ print("\n<+* Log Report *+>")
 print(f"Failed Logins: {failed}")
 print(f"Successful Logins: {success}")
 
-# Print statement of IP addresses with failed attempts > 3 
+# Print statement of IP addresses with failed attempts >= 3 
 print("\nUnknown or Suspicious IPs:")
 
 for ip, count in failed_ips.items():
