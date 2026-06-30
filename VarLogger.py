@@ -24,12 +24,12 @@ try:
 	with open(log_path, "r") as file:
 		logs = file.readlines()
 
-# If log path is incorrect print response of error
+# If log path is incorrect, pass & print response of error
 except FileNotFoundError:
 	print(f"Could not find {log_path}")
 	exit()
 
-# If permissions are incorrect print response of error
+# If permissions are incorrect, pass & print response of error
 except PermissionError:
 	print("Permission Denied | Try Using Sudo Privileges!")
 	exit()
