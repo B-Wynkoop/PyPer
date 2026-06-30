@@ -24,12 +24,12 @@ try:
 	with open(log_path, "r") as file:
 		logs = file.readlines()
 
-# If log path is incorrect, pass & print response of error
+# If log path is incorrect, exit & print response of error
 except FileNotFoundError:
 	print(f"Could not find {log_path}")
 	exit()
 
-# If permissions are incorrect, pass & print response of error
+# If permissions are incorrect, exit & print response of error
 except PermissionError:
 	print("Permission Denied | Try Using Sudo Privileges!")
 	exit()
@@ -51,7 +51,7 @@ for line in logs:
 			else:
 				failed_ips[ip] += 1
 
-# Excepts any value or index error that may occur
+# Excepts and passes any value or index error that may occur
 		except (ValueError, IndexError):
 			pass
 
