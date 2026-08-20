@@ -1,1 +1,1 @@
-# VarLogger
+# SAP (Security Authentication Persistence)
