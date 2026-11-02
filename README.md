@@ -1,3 +1,3 @@
-# 🐍 PyPer (Python Persistence Scan)
+# 🐍 PyPer | Python Persistence Scan
 
 In Progress - Ongoing Project
