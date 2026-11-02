@@ -1,1 +1,1 @@
-# PyPer (Python Persistence Scan)
+# 🐍 PyPer (Python Persistence Scan)
